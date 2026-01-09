@@ -1,0 +1,21 @@
+{
+  "name": "my-agent-skills",
+  "owner": {
+    "name": "Thein"
+  },
+  "metadata": {
+    "description": "Custom Claude Code skills and plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "python-code-review",
+      "description": "Review Python code changes in merge requests and pull requests",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/python-code-review"
+      ]
+    }
+  ]
+}
